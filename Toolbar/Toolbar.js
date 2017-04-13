@@ -1,7 +1,7 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function func_dropdown() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown").classList.toggle("showDropdown");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -12,8 +12,24 @@ function func_dropdown() {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains('showDropdown')) {
+        openDropdown.classList.remove('showDropdown');
+      }
+    }
+  }
+}
+function func_settings() {
+    document.getElementById("mySettings").classList.toggle("showSettings");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.showSettings')) {
+
+    var dropdowns = document.getElementsByClassName("settings-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('showSettings')) {
+        openDropdown.classList.remove('showSettings');
       }
     }
   }
