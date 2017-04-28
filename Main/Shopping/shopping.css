@@ -1,3 +1,7 @@
+body{
+    background-color: lightgray;
+}
+
 .offering{
     background-color: #E1FFDB;
     height: 8em;
@@ -36,7 +40,6 @@
             border-radius: 1em;
             height: 5em;
             width: 5em;
-            margin: .5em;
             overflow: hidden;
             display: block;
         }
@@ -56,16 +59,18 @@
             font: bold;
             font-size: 1.5em;
             line-height: 1em;
+            padding-left: 0.5em;
+            padding-right: 1em;
             display: inline;
         }
         .offering_offerer{
-            padding-left: 1em;
+            
             max-height: 1.5em;
             max-width: 1.5em;
             display: inline;
         }
 
         p{
-            padding: .5em;
+            padding-left: 0.5em;
             font: 1em blue;
         }
