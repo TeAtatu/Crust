@@ -9,15 +9,26 @@ body{
     margin: .5em;
     
 }
+        .thumb_up{
+             border: 0;
+        }
+        .thumb_down{
+             border: 0;
+        }
     /*offer like*/
     .offer_like{
         background-color: lightgreen;
     }
-        .offer_like .thumbs_up{
+        .offer_like .thumb_up{
              display: inline;
+             background-color: green;
+             border-radius: 0.5em;
+             border: 0;
         }
         .offer_like .thumb_down{
              display: inline;
+             background-color: lightgreen;
+             border: 0;
         }
     /*offer dislike*/
     .offer_dislike{
@@ -26,22 +37,28 @@ body{
     }
         .offer_dislike .thumb_up{
              display: inline;
+             background-color: pink;
+             border: 0;
         }
         .offer_dislike .thumb_down{
              display: inline;
+             background-color: red;
+             border-radius: 0.5em;
+             border: 0;
         }
 
 /*offering left*/
     .offering_left{
         float: left;
+        padding: 0.5em;
     }
         .offering_img{
-            border: .1em solid black;
             border-radius: 1em;
             height: 5em;
             width: 5em;
             overflow: hidden;
             display: block;
+            
         }
 
     .offering_details{
