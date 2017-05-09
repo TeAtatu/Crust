@@ -1,0 +1,31 @@
+#heading {
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+    background-color:lightgrey;
+}
+
+#logo{
+    max-width: 25%;
+    max-height: 5em;
+    vertical-align: middle;
+}
+
+#organisationName{
+    width: 500px;
+    height: 2em;
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-size: 40px;
+}
+#contactDetails{
+    margin: auto;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
