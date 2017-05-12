@@ -1,8 +1,14 @@
+body{
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+
 #heading {
     margin: auto;
-    width: 1000px;
-    padding: 10px;
-    background-color:lightgrey;
+    width: 980px;
+    padding: 10px 10px;
+    background-color:white;
 }
 
 #logo{
@@ -21,11 +27,33 @@
     color: black;
     font-size: 40px;
 }
+/*#location */
 #contactDetails{
     margin: auto;
-    width: 1000px;
+    width: 980px;
     background-color: black;
     color: white;
     text-align: center;
     padding: 5px 10px;
+}
+#sections{
+    margin: auto;
+    width: 980px;
+    min-height:100%; /*needs to be only to end of page min*/
+    padding: 0px 10px;
+    background-color:white;
+    border: 1px solid white;
+}
+#hours{
+    display: inline-block;
+    width: 33%;
+    line-height:2em;
+    text-align: right;
+    margin: 0 15px 0 0;
+}
+img#locationImage{
+    display: inline-block;
+    height: 14em;
+    vertical-align: top;
+    margin: 0 0 0 15px;
 }
