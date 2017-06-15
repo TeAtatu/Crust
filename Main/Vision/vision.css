@@ -1,0 +1,115 @@
+body{
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+#heading {
+    margin: auto;
+    width: 980px;
+    padding: 10px 10px;
+    background-color:white;
+}
+.logo{
+    max-width: 25%;
+    max-height: 5em;
+    vertical-align: middle;
+    display: inline-block;
+}
+#headingText{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+#ideas {
+    margin: auto;
+    width: 980px;
+    padding: 10px 10px;
+    background-color:white;
+}
+.idea {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lemonchiffon;
+    vertical-align: bottom;
+}
+    .ideaInfo{
+        position: absolute;
+        bottom: 0.5em;
+        right: 0.5em;
+        width: 20px;
+        height: 20px;
+    }
+    .ideaVote{
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        width: 20px;
+        height: 20px;
+    }
+    .ideaTitle{
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    #ideaDetails{
+        position: fixed;
+        top: 15em;
+        left: 15em;
+        width: 30em;
+        height: 30em;
+        border: 1px lightgrey solid;
+        border-radius: 10px;
+        color: black;
+        background-color: white; 
+        padding: 0.5em;
+        z-index: 999;
+    }
+    #ideaDetailsClose{
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+    }
+
+    #ideaVoteDetails{
+        position: fixed;
+        top: 15em;
+        left: 15em;
+        width: 24em;
+        height: 5em;
+        border: 1px lightgrey solid;
+        border-radius: 10px;
+        color: black;
+        background-color: white; 
+        padding: 0.5em;
+        z-index: 999;
+    }
+    #ideaVoteDetailsClose{
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+    }
+    .voteOption{
+        width: 5em;
+        height: 5em;
+        margin: 0.25em;
+        border-radius: 5px;
+    }
+
+.promotedSelf{
+    background-color:yellow;
+}
+.promotedCommunity{
+    background-color:lightgreen;
+}
+.rejected {
+    background-color:red;
+}
+

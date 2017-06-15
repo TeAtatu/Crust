@@ -1,16 +1,16 @@
 function LoadDetails(){
     //Heading update
-    document.getElementById("heading").style.background = "gold";
+    document.getElementById("heading").style.background = "white";
     
     //Add logo
     logo.src = "images/icon.png";
 
     //Add organisation name
     document.getElementById("organisationName").innerHTML = document.title;
-    document.getElementById("organisationName").style.color = "black";
+    document.getElementById("organisationName").style.color = "blue";
 
     //Add location details
-    var str = "572 Te Atatu Road, Te Atatu Peninsula Waitakere 0610"
+    var str = "Te Atatu Glendene"
     var result = str.link("https://www.bing.com/maps?osid=8307a9fd-1615-4868-97bd-4a1172df57dc&cp=-36.840515~174.650671&lvl=18&v=2&sV=2&form=S00027")
     
     var locationDiv = document.createElement('DIV');
@@ -21,10 +21,10 @@ function LoadDetails(){
     var contactDiv = document.createElement('DIV');
     contactDiv.id = "contact"
     document.getElementById('contactDetails').appendChild(contactDiv);
-    var phone = "09 834 6210"
-    var fax = "09 834 9546"
-    var email = "teatatu@hammerhardware.co.nz"
-    var emailLink = email.link("mailto:"+email)
+    var phone = "09 834 621000"
+    var fax = "09 834 954600"
+    var email = "cpnzteatatu@gmail.com"
+        var emailLink = email.link("mailto:"+email)
     document.getElementById("contact").innerHTML = "Phone: " + phone + " | Fax: " + fax + " | Email: " + emailLink;
     
     //Add about us text
