@@ -1,6 +1,7 @@
-Use: Operates similar to the offerings wigit but displays for offerings from all listers
+Use: Display all locally listed jobs
 
 Thoughts
 - How is admin done? Presumably via "business" account page? Possibly "user" account page
 - Display all local TradeMe adverts
+- Display all local SEEK adverts
 
