@@ -1,0 +1,5 @@
+Use: Widget that can be added to sub domains
+
+Thoughts:
+Just list offerings, or provide search etc?
+
