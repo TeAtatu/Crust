@@ -1,0 +1,6 @@
+Use: Operates similar to the offerings wigit but displays for offerings from all listers
+
+Thoughts
+- How is admin done? Presumably via "business" account page? Possibly "user" account page
+- Display all local TradeMe adverts
+
