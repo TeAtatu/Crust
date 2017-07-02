@@ -1,0 +1,5 @@
+Use: Displays properties for rent
+
+Thoughts:
+- Trademe
+- http://docs.api.dev.realestate.co.nz/partner/listings/get_listings.html
