@@ -1,13 +1,6 @@
 function LoadDetails(){
-    //Heading update
-    document.getElementById("heading").style.background = "firebrick";
-        
-    //Add logo
-    logo.src = "images/icon.png";
-
     //Add organisation name
     document.getElementById("organisationName").innerHTML = document.title;
-    document.getElementById("organisationName").style.color = "white";
 
     //Add location details
     var str = "458 Old Te Atatu Road, Te Atatu Paninsula, Auckland"

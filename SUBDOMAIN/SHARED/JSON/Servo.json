@@ -1,0 +1,48 @@
+{
+  "domain": "Servo",
+  "business": "Servo",
+  "aboutUs": "Set in a 1950s gas station, The Servo Cafe overlooks the harbour, the bridge and Auckland City. Servo just 10 mins West of Auckland City centre with hassle free parking.",
+  "phone":"09 834 0222",
+  "fax":"09 843 0225",
+  "email":"",
+  "address":{
+    "description":"458 Old Te Atatu Road, Te Atatu Paninsula, Auckland",
+    "url": "https://www.bing.com/maps?osid=8307a9fd-1615-4868-97bd-4a1172df57dc&cp=-36.840515~174.650671&lvl=18&v=2&sV=2&form=S00027"
+  },
+  "openHours": [{
+    "day": "Monday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Tuesday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Wednesday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Thursday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Friday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Saturday",
+    "open":"9am",
+    "close":"3pm"
+  },
+  {
+    "day": "Sunday",
+    "open":"9am",
+    "close":"3pm"
+  }]
+
+}
